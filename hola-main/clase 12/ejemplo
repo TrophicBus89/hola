@@ -1,0 +1,11 @@
+print("INGRESO DE DATOS")
+print("----------------")
+nombre=input("Ingrese su nombre: ")
+while True:
+    try:
+        edad=int(input("Ingrese su edad: "))
+        break
+    except:
+        print("Dato invalido, intentelo de nuevo")
+print("----------------")
+print(f"Su nombre es {nombre}\nTiene {edad} años :D")
